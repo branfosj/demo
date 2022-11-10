@@ -9,4 +9,4 @@ jobs:
       - name: list files
         run: |
           ls ${{ github.workspace }}
-      - run: job status is ${{ job.status }}
+      - run: echo "job status is ${{ job.status }}"
